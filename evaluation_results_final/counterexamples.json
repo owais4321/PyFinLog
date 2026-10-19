@@ -1,0 +1,1696 @@
+[
+  {
+    "family": "authorization",
+    "size": 1,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 4,
+      "checked": 3,
+      "transitions": 3,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "actions": [
+        "grant:0"
+      ],
+      "trace": {
+        "expression": "\u2200user \u2208 [0] [(Granted(state, user) \u21d2 Authorized(state, user))]",
+        "value": false,
+        "bindings": {
+          "state": [
+            0,
+            1
+          ]
+        },
+        "children": [
+          {
+            "expression": "(Granted(state, user) \u21d2 Authorized(state, user))",
+            "value": false,
+            "bindings": {
+              "state": [
+                0,
+                1
+              ],
+              "user": 0
+            },
+            "children": [
+              {
+                "expression": "Granted(state, user)",
+                "value": true,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              },
+              {
+                "expression": "Authorized(state, user)",
+                "value": false,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              }
+            ],
+            "decisive_binding": null
+          }
+        ],
+        "decisive_binding": {
+          "user": 0
+        }
+      }
+    }
+  },
+  {
+    "family": "authorization",
+    "size": 2,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 8,
+      "checked": 3,
+      "transitions": 7,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "actions": [
+        "grant:0"
+      ],
+      "trace": {
+        "expression": "\u2200user \u2208 [0, 1] [(Granted(state, user) \u21d2 Authorized(state, user))]",
+        "value": false,
+        "bindings": {
+          "state": [
+            0,
+            1
+          ]
+        },
+        "children": [
+          {
+            "expression": "(Granted(state, user) \u21d2 Authorized(state, user))",
+            "value": false,
+            "bindings": {
+              "state": [
+                0,
+                1
+              ],
+              "user": 0
+            },
+            "children": [
+              {
+                "expression": "Granted(state, user)",
+                "value": true,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              },
+              {
+                "expression": "Authorized(state, user)",
+                "value": false,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              }
+            ],
+            "decisive_binding": null
+          }
+        ],
+        "decisive_binding": {
+          "user": 0
+        }
+      }
+    }
+  },
+  {
+    "family": "authorization",
+    "size": 4,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 16,
+      "checked": 3,
+      "transitions": 15,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "actions": [
+        "grant:0"
+      ],
+      "trace": {
+        "expression": "\u2200user \u2208 [0, 1, 2, 3] [(Granted(state, user) \u21d2 Authorized(state, user))]",
+        "value": false,
+        "bindings": {
+          "state": [
+            0,
+            1
+          ]
+        },
+        "children": [
+          {
+            "expression": "(Granted(state, user) \u21d2 Authorized(state, user))",
+            "value": false,
+            "bindings": {
+              "state": [
+                0,
+                1
+              ],
+              "user": 0
+            },
+            "children": [
+              {
+                "expression": "Granted(state, user)",
+                "value": true,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              },
+              {
+                "expression": "Authorized(state, user)",
+                "value": false,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              }
+            ],
+            "decisive_binding": null
+          }
+        ],
+        "decisive_binding": {
+          "user": 0
+        }
+      }
+    }
+  },
+  {
+    "family": "authorization",
+    "size": 6,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 24,
+      "checked": 3,
+      "transitions": 23,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "actions": [
+        "grant:0"
+      ],
+      "trace": {
+        "expression": "\u2200user \u2208 [0, 1, 2, 3, 4, 5] [(Granted(state, user) \u21d2 Authorized(state, user))]",
+        "value": false,
+        "bindings": {
+          "state": [
+            0,
+            1
+          ]
+        },
+        "children": [
+          {
+            "expression": "(Granted(state, user) \u21d2 Authorized(state, user))",
+            "value": false,
+            "bindings": {
+              "state": [
+                0,
+                1
+              ],
+              "user": 0
+            },
+            "children": [
+              {
+                "expression": "Granted(state, user)",
+                "value": true,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              },
+              {
+                "expression": "Authorized(state, user)",
+                "value": false,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              }
+            ],
+            "decisive_binding": null
+          }
+        ],
+        "decisive_binding": {
+          "user": 0
+        }
+      }
+    }
+  },
+  {
+    "family": "authorization",
+    "size": 8,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 32,
+      "checked": 3,
+      "transitions": 31,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "actions": [
+        "grant:0"
+      ],
+      "trace": {
+        "expression": "\u2200user \u2208 [0, 1, 2, 3, 4, 5, 6, 7] [(Granted(state, user) \u21d2 Authorized(state, user))]",
+        "value": false,
+        "bindings": {
+          "state": [
+            0,
+            1
+          ]
+        },
+        "children": [
+          {
+            "expression": "(Granted(state, user) \u21d2 Authorized(state, user))",
+            "value": false,
+            "bindings": {
+              "state": [
+                0,
+                1
+              ],
+              "user": 0
+            },
+            "children": [
+              {
+                "expression": "Granted(state, user)",
+                "value": true,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              },
+              {
+                "expression": "Authorized(state, user)",
+                "value": false,
+                "bindings": {
+                  "state": [
+                    0,
+                    1
+                  ],
+                  "user": 0
+                },
+                "children": [],
+                "decisive_binding": null
+              }
+            ],
+            "decisive_binding": null
+          }
+        ],
+        "decisive_binding": {
+          "user": 0
+        }
+      }
+    }
+  },
+  {
+    "family": "lock_ring",
+    "size": 2,
+    "faulty": true,
+    "result": {
+      "status": "deadlock",
+      "complete": false,
+      "discovered": 7,
+      "checked": 5,
+      "transitions": 7,
+      "reason": "Reachable nonterminal sink.",
+      "states": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "actions": [
+        "acquire:0:0",
+        "acquire:1:1"
+      ],
+      "trace": null
+    }
+  },
+  {
+    "family": "lock_ring",
+    "size": 3,
+    "faulty": true,
+    "result": {
+      "status": "deadlock",
+      "complete": false,
+      "discovered": 20,
+      "checked": 14,
+      "transitions": 28,
+      "reason": "Reachable nonterminal sink.",
+      "states": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "actions": [
+        "acquire:0:0",
+        "acquire:1:1",
+        "acquire:2:2"
+      ],
+      "trace": null
+    }
+  },
+  {
+    "family": "lock_ring",
+    "size": 4,
+    "faulty": true,
+    "result": {
+      "status": "deadlock",
+      "complete": false,
+      "discovered": 61,
+      "checked": 40,
+      "transitions": 109,
+      "reason": "Reachable nonterminal sink.",
+      "states": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ]
+      ],
+      "actions": [
+        "acquire:0:0",
+        "acquire:1:1",
+        "acquire:2:2",
+        "acquire:3:3"
+      ],
+      "trace": null
+    }
+  },
+  {
+    "family": "lock_ring",
+    "size": 5,
+    "faulty": true,
+    "result": {
+      "status": "deadlock",
+      "complete": false,
+      "discovered": 191,
+      "checked": 121,
+      "transitions": 418,
+      "reason": "Reachable nonterminal sink.",
+      "states": [
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ]
+      ],
+      "actions": [
+        "acquire:0:0",
+        "acquire:1:1",
+        "acquire:2:2",
+        "acquire:3:3",
+        "acquire:4:4"
+      ],
+      "trace": null
+    }
+  },
+  {
+    "family": "lock_ring",
+    "size": 6,
+    "faulty": true,
+    "result": {
+      "status": "deadlock",
+      "complete": false,
+      "discovered": 598,
+      "checked": 379,
+      "transitions": 1574,
+      "reason": "Reachable nonterminal sink.",
+      "states": [
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ]
+      ],
+      "actions": [
+        "acquire:0:0",
+        "acquire:1:1",
+        "acquire:2:2",
+        "acquire:3:3",
+        "acquire:4:4",
+        "acquire:5:5"
+      ],
+      "trace": null
+    }
+  },
+  {
+    "family": "lock_ring",
+    "size": 7,
+    "faulty": true,
+    "result": {
+      "status": "deadlock",
+      "complete": false,
+      "discovered": 1885,
+      "checked": 1202,
+      "transitions": 5813,
+      "reason": "Reachable nonterminal sink.",
+      "states": [
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        ]
+      ],
+      "actions": [
+        "acquire:0:0",
+        "acquire:1:1",
+        "acquire:2:2",
+        "acquire:3:3",
+        "acquire:4:4",
+        "acquire:5:5",
+        "acquire:6:6"
+      ],
+      "trace": null
+    }
+  },
+  {
+    "family": "bounded_buffer",
+    "size": 1,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 4,
+      "checked": 3,
+      "transitions": 3,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0
+        ]
+      ],
+      "actions": [
+        "produce",
+        "produce"
+      ],
+      "trace": {
+        "expression": "BufferInvariant(state)",
+        "value": false,
+        "bindings": {
+          "state": [
+            2,
+            2,
+            0
+          ]
+        },
+        "children": [],
+        "decisive_binding": null
+      }
+    }
+  },
+  {
+    "family": "bounded_buffer",
+    "size": 2,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 6,
+      "checked": 5,
+      "transitions": 6,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ],
+      "actions": [
+        "produce",
+        "produce",
+        "produce"
+      ],
+      "trace": {
+        "expression": "BufferInvariant(state)",
+        "value": false,
+        "bindings": {
+          "state": [
+            3,
+            3,
+            0
+          ]
+        },
+        "children": [],
+        "decisive_binding": null
+      }
+    }
+  },
+  {
+    "family": "bounded_buffer",
+    "size": 4,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 12,
+      "checked": 10,
+      "transitions": 15,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          4,
+          0
+        ],
+        [
+          5,
+          5,
+          0
+        ]
+      ],
+      "actions": [
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce"
+      ],
+      "trace": {
+        "expression": "BufferInvariant(state)",
+        "value": false,
+        "bindings": {
+          "state": [
+            5,
+            5,
+            0
+          ]
+        },
+        "children": [],
+        "decisive_binding": null
+      }
+    }
+  },
+  {
+    "family": "bounded_buffer",
+    "size": 8,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 30,
+      "checked": 26,
+      "transitions": 45,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          4,
+          0
+        ],
+        [
+          5,
+          5,
+          0
+        ],
+        [
+          6,
+          6,
+          0
+        ],
+        [
+          7,
+          7,
+          0
+        ],
+        [
+          8,
+          8,
+          0
+        ],
+        [
+          9,
+          9,
+          0
+        ]
+      ],
+      "actions": [
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce"
+      ],
+      "trace": {
+        "expression": "BufferInvariant(state)",
+        "value": false,
+        "bindings": {
+          "state": [
+            9,
+            9,
+            0
+          ]
+        },
+        "children": [],
+        "decisive_binding": null
+      }
+    }
+  },
+  {
+    "family": "bounded_buffer",
+    "size": 16,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 90,
+      "checked": 82,
+      "transitions": 153,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          4,
+          0
+        ],
+        [
+          5,
+          5,
+          0
+        ],
+        [
+          6,
+          6,
+          0
+        ],
+        [
+          7,
+          7,
+          0
+        ],
+        [
+          8,
+          8,
+          0
+        ],
+        [
+          9,
+          9,
+          0
+        ],
+        [
+          10,
+          10,
+          0
+        ],
+        [
+          11,
+          11,
+          0
+        ],
+        [
+          12,
+          12,
+          0
+        ],
+        [
+          13,
+          13,
+          0
+        ],
+        [
+          14,
+          14,
+          0
+        ],
+        [
+          15,
+          15,
+          0
+        ],
+        [
+          16,
+          16,
+          0
+        ],
+        [
+          17,
+          17,
+          0
+        ]
+      ],
+      "actions": [
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce"
+      ],
+      "trace": {
+        "expression": "BufferInvariant(state)",
+        "value": false,
+        "bindings": {
+          "state": [
+            17,
+            17,
+            0
+          ]
+        },
+        "children": [],
+        "decisive_binding": null
+      }
+    }
+  },
+  {
+    "family": "bounded_buffer",
+    "size": 32,
+    "faulty": true,
+    "result": {
+      "status": "violated",
+      "complete": false,
+      "discovered": 306,
+      "checked": 290,
+      "transitions": 561,
+      "reason": "Reachable invariant violation.",
+      "states": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          4,
+          0
+        ],
+        [
+          5,
+          5,
+          0
+        ],
+        [
+          6,
+          6,
+          0
+        ],
+        [
+          7,
+          7,
+          0
+        ],
+        [
+          8,
+          8,
+          0
+        ],
+        [
+          9,
+          9,
+          0
+        ],
+        [
+          10,
+          10,
+          0
+        ],
+        [
+          11,
+          11,
+          0
+        ],
+        [
+          12,
+          12,
+          0
+        ],
+        [
+          13,
+          13,
+          0
+        ],
+        [
+          14,
+          14,
+          0
+        ],
+        [
+          15,
+          15,
+          0
+        ],
+        [
+          16,
+          16,
+          0
+        ],
+        [
+          17,
+          17,
+          0
+        ],
+        [
+          18,
+          18,
+          0
+        ],
+        [
+          19,
+          19,
+          0
+        ],
+        [
+          20,
+          20,
+          0
+        ],
+        [
+          21,
+          21,
+          0
+        ],
+        [
+          22,
+          22,
+          0
+        ],
+        [
+          23,
+          23,
+          0
+        ],
+        [
+          24,
+          24,
+          0
+        ],
+        [
+          25,
+          25,
+          0
+        ],
+        [
+          26,
+          26,
+          0
+        ],
+        [
+          27,
+          27,
+          0
+        ],
+        [
+          28,
+          28,
+          0
+        ],
+        [
+          29,
+          29,
+          0
+        ],
+        [
+          30,
+          30,
+          0
+        ],
+        [
+          31,
+          31,
+          0
+        ],
+        [
+          32,
+          32,
+          0
+        ],
+        [
+          33,
+          33,
+          0
+        ]
+      ],
+      "actions": [
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce",
+        "produce"
+      ],
+      "trace": {
+        "expression": "BufferInvariant(state)",
+        "value": false,
+        "bindings": {
+          "state": [
+            33,
+            33,
+            0
+          ]
+        },
+        "children": [],
+        "decisive_binding": null
+      }
+    }
+  }
+]

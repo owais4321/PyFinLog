@@ -1,0 +1,43 @@
+test_access_control_policy (tests.test_checking.TestChecking.test_access_control_policy) ... ok
+test_connective_truth_tables (tests.test_checking.TestChecking.test_connective_truth_tables) ... ok
+test_domain_is_copied (tests.test_checking.TestChecking.test_domain_is_copied) ... ok
+test_empty_domains (tests.test_checking.TestChecking.test_empty_domains) ... ok
+test_entailment (tests.test_checking.TestChecking.test_entailment) ... ok
+test_equivalence (tests.test_checking.TestChecking.test_equivalence) ... ok
+test_invalid_budgets (tests.test_checking.TestChecking.test_invalid_budgets) ... ok
+test_nested_failure_without_existential_witness (tests.test_checking.TestChecking.test_nested_failure_without_existential_witness) ... ok
+test_nested_witness_dependencies (tests.test_checking.TestChecking.test_nested_witness_dependencies) ... ok
+test_non_boolean_results_are_rejected (tests.test_checking.TestChecking.test_non_boolean_results_are_rejected) ... ok
+test_numeric_literal_predicate_arguments (tests.test_checking.TestChecking.test_numeric_literal_predicate_arguments) ... ok
+test_propositional_search_rejects_quantified_syntax (tests.test_checking.TestChecking.test_propositional_search_rejects_quantified_syntax) ... ok
+test_quantified_counterexample_and_witness (tests.test_checking.TestChecking.test_quantified_counterexample_and_witness) ... ok
+test_resource_limits (tests.test_checking.TestChecking.test_resource_limits) ... ok
+test_satisfiability_and_returned_model (tests.test_checking.TestChecking.test_satisfiability_and_returned_model) ... ok
+test_symbolic_truth_conversion_is_rejected (tests.test_checking.TestChecking.test_symbolic_truth_conversion_is_rejected) ... ok
+test_truth_table_rows (tests.test_checking.TestChecking.test_truth_table_rows) ... ok
+test_truth_table_validation (tests.test_checking.TestChecking.test_truth_table_validation) ... ok
+test_validity_and_returned_countermodel (tests.test_checking.TestChecking.test_validity_and_returned_countermodel) ... ok
+test_variable_shadowing_preserves_context (tests.test_checking.TestChecking.test_variable_shadowing_preserves_context) ... ok
+test_and (tests.test_logic.TestLogicalFramework.test_and) ... ok
+test_constants (tests.test_logic.TestLogicalFramework.test_constants) ... ok
+test_existential_quantifier (tests.test_logic.TestLogicalFramework.test_existential_quantifier) ... ok
+test_iff (tests.test_logic.TestLogicalFramework.test_iff) ... ok
+test_implies (tests.test_logic.TestLogicalFramework.test_implies) ... ok
+test_not (tests.test_logic.TestLogicalFramework.test_not) ... ok
+test_predicate_evaluation (tests.test_logic.TestLogicalFramework.test_predicate_evaluation) ... ok
+test_universal_quantifier (tests.test_logic.TestLogicalFramework.test_universal_quantifier) ... ok
+test_variable (tests.test_logic.TestLogicalFramework.test_variable) ... ok
+test_corrected_protocol_is_exhausted (tests.test_model_checking.ModelCheckingTests.test_corrected_protocol_is_exhausted) ... ok
+test_deadlock_and_corrected_lock_order (tests.test_model_checking.ModelCheckingTests.test_deadlock_and_corrected_lock_order) ... ok
+test_initial_violation_has_zero_actions (tests.test_model_checking.ModelCheckingTests.test_initial_violation_has_zero_actions) ... ok
+test_multiple_initial_states (tests.test_model_checking.ModelCheckingTests.test_multiple_initial_states) ... ok
+test_none_is_a_valid_state (tests.test_model_checking.ModelCheckingTests.test_none_is_a_valid_state) ... ok
+test_shortest_named_counterexample (tests.test_model_checking.ModelCheckingTests.test_shortest_named_counterexample) ... ok
+test_state_budget_returns_unknown (tests.test_model_checking.ModelCheckingTests.test_state_budget_returns_unknown) ... ok
+test_terminal_state_and_self_loop (tests.test_model_checking.ModelCheckingTests.test_terminal_state_and_self_loop) ... ok
+test_transition_budget_returns_unknown (tests.test_model_checking.ModelCheckingTests.test_transition_budget_returns_unknown) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.007s
+
+OK

@@ -1,0 +1,20 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "timer": "perf_counter",
+  "repetitions": 10,
+  "z3_version": null,
+  "source_sha256": {
+    "logic_core\\__init__.py": "ff5ca8907d8e7138dfd43ef05839f3d2e66ac149fdf1d5ddb5956c7ba5b9dbef",
+    "logic_core\\base_expressions.py": "3de7a5a49daab7e415b57a3675aabe76aa3446ee82e6d02652abc5df7555a0cf",
+    "logic_core\\checking.py": "a10ad2887fcdac913d52625ffc7ea9ac18cdd3d64e102b5490a05d5b9c192e29",
+    "logic_core\\connectives.py": "5380f67d6acd28a43d4f9be35e4a3a628f4dfef85e9629342b7be0b9c1027fda",
+    "logic_core\\model_checking.py": "c71606f99ed2605c592624741310c6508319b9b9a1639a251a04e53e2d5d3ec5",
+    "logic_core\\quantifiers.py": "67d337c83bd96ae6cfa2ae42c8bf82b824ea0ff61901ca0fca63cff43162d137",
+    "tools.py": "5c1fcbdd277bf35ba2ffe2360843ce0be517617cbc5887af90d282522444b473",
+    "evaluation.py": "ca01cf4938876d5b5d66144dbac1c545a7387e9fcc266caf6c9c4b16325ff9d7"
+  },
+  "memory_metric": "tracemalloc peak during a separate run; excludes native allocations and is not RSS",
+  "timing_scope": "query/exploration including solver creation, excluding formula/model construction; no tracemalloc during timing"
+}

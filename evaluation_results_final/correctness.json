@@ -1,0 +1,27 @@
+{
+  "seed": 4321,
+  "formulas": {
+    "generated": 1000,
+    "unique": 718,
+    "assignment_cases": 8000,
+    "search_checks": 2000,
+    "z3_checks": 0,
+    "mismatches": 0
+  },
+  "graphs": {
+    "graphs": 200,
+    "status_checks": 400,
+    "replayed_invariant_paths": 90,
+    "replayed_deadlock_paths": 144,
+    "mismatches": 0
+  },
+  "quantified": {
+    "domain_pairs": 25,
+    "checks": 50,
+    "mismatches": 0
+  },
+  "boundaries": {
+    "checks": 7,
+    "mismatches": 0
+  }
+}

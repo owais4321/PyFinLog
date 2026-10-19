@@ -1,0 +1,20 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy-logic-engine"
+version = "0.2.0"
+description = "Finite-domain specification checking with scoped witnesses and counterexamples"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/owais4321/Easy-Logic-Engine"
+
+[tool.setuptools]
+packages = ["logic_core"]
+py-modules = ["tools"]
