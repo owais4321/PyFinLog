@@ -667,12 +667,5 @@ before the complete result bundle is written.
 
 ## 11. Reproducibility and Interpretation
 
-The evaluation records source-file SHA-256 hashes and environment information.
-Rerun the evaluation after changing the implementation or model definitions.
-
-Included reference timings are specific to the machine on which they were
-measured. Verdicts, expected reachable-state counts, and documented
-counterexample properties should remain consistent under the stated assumptions.
-
 The artifact supports reproducing PyFinLog's demonstrations, correctness checks,
 counterexample evidence, and scaling measurements.
